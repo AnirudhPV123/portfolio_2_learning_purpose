@@ -21,12 +21,10 @@ menu_icon.onclick = function(){
 document.onclick = function(e){
   if (!menu_icon.contains(e.target)) {
     document.getElementById("nav-links").style.right = "-65vw";
+    if(open == true){
+    menu_icon.classList.toggle("active-menu-icon"); //for icon bar toggle
+  }
     open = false;
   }
 }
-
-// navbar end
-
-
-
 
