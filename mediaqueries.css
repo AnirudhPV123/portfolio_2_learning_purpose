@@ -1,0 +1,183 @@
+@media screen and (max-width: 800px) {
+  body {
+    padding: 1.5rem 6%;
+  }
+
+  /* navbar start */
+  #navbar .nav-name {
+    font-size: var(--font-size-s-medium);
+  }
+  .menu-icon {
+    display: flex;
+  }
+  #navbar .nav-links {
+    flex-direction: column;
+    position: fixed;
+    right: -65vw;
+    top: 0;
+    width: 60vw;
+    height: 100vh;
+    padding: 6rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: right 0.4s;
+  }
+
+  #navbar .nav-links a {
+    display: block;
+    font-size: var(--font-size-s-medium);
+    color: var(--font-color-medium);
+    border-bottom: 1px solid var(--font-color-medium);
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  body {
+    padding: 1.5rem 6%;
+  }
+  #navbar .nav-name {
+    font-size: calc(var(--font-size-m-large) - 0.5rem);
+  }
+  #navbar .nav-links a {
+    font-size: calc(var(--font-size-m-medium) - 0.1rem);
+  }
+}
+/* navbar end */
+
+/* profile seciton start */
+@media (min-width: 800px) {
+  #profile .profile-img-container {
+    height: 50%;
+  }
+
+  #profile .profile-details-container {
+    height: 40%;
+  }
+  #profile .profile-details-container p {
+    font-size: var(--font-size-m-small);
+  }
+
+  #profile .profile-details-container h1 {
+    font-size: var(--font-size-m-large);
+  }
+
+  #profile .profile-details-container h3 {
+    font-size: var(--font-size-m-medium);
+  }
+
+  #profile .profile-details-container .buttons button {
+    font-size: 1rem;
+  }
+
+  #profile .profile-details-container .social-media-icons img {
+    width: 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  #profile {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    height: fit-content;
+  }
+  #profile .profile-img-container {
+    width: 50%;
+    height: fit-content;
+  }
+  #profile .profile-img-container img {
+    width: 100%;
+    height: fit-content;
+  }
+  #profile .profile-details-container p {
+    font-size: var(--font-size-l-small);
+  }
+  #profile .profile-details-container h1 {
+    font-size: var(--font-size-l-large);
+  }
+  #profile .profile-details-container h3 {
+    font-size: var(--font-size-l-medium);
+  }
+}
+/* profile section end */
+
+/* about-section start */
+@media (min-width: 1280px) {
+  #about-section p {
+    font-size: var(--font-size-l-small);
+  }
+  #about-section h1 {
+    font-size: var(--font-size-l-large);
+  }
+  #about-section .about-container {
+    display: flex;
+    flex-direction: row;
+  }
+  #about-section .about-container img {
+    width: 40%;
+  }
+}
+/* about-section end */
+
+/* experiene-section start */
+@media (min-width: 1280px) {
+  #section-experience p {
+    font-size: var(--font-size-l-small);
+  }
+  #section-experience h1 {
+    font-size: var(--font-size-l-large);
+  }
+  #section-experience .experience-details-container .experience-details-box h3 {
+    font-size: calc(var(--font-size-l-medium) - 0.3rem);
+  }
+  #section-experience
+    .experience-details-container
+    .experience-details-box
+    article
+    h4 {
+    font-size: calc(var(--font-size-l-small));
+  }
+  #section-experience
+    .experience-details-container
+    .experience-details-box
+    article
+    p {
+    font-size: calc(var(--font-size-l-small) - 0.2rem);
+  }
+}
+
+@media (min-width: 600px) {
+  #section-experience .experience-details-container {
+    flex-direction: row;
+  }
+  #section-experience .experience-details-container .experience-details-box {
+    width: 50%;
+  }
+}
+/* experiene-section end */
+
+/* projects-section start */
+@media (min-width:1280px){
+  #projects-section .projects-container .project h3{
+    font-size: calc(var(--font-size-l-medium) - 0.3rem);
+  }
+  #projects-section p{
+    font-size: var(--font-size-l-small);
+  }
+  #projects-section h1{
+    font-size: var(--font-size-l-large);
+  }
+}
+/* projects-section end */
+
+
+@media (min-width:1280px){
+  #contact-section h1{
+    font-size: var(--font-size-l-large); 
+  }
+  #contact-section p{
+    font-size: var(--font-size-l-small);
+  }
+}
