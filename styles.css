@@ -126,7 +126,7 @@ header{
 /* profile section start */
 #profile {
   height: 70vh;
-  margin: calc(12vh + 2.5rem*2 + 2.5rem) 0;
+  margin: 20vh 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
