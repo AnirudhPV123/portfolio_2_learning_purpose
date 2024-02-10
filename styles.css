@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  padding: 2.5rem 13%;
+  padding: 0 13% 2.5rem;
 }
 ul {
   list-style: none;
@@ -45,6 +45,15 @@ a {
   text-decoration: none;
 }
 
+/* mistake when building the navbar not using background so position problem there this code is used */
+header{
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 26%);
+  background-color: #fff;
+}
 
 
 /* navbar start */
@@ -117,7 +126,7 @@ a {
 /* profile section start */
 #profile {
   height: 70vh;
-  margin: 12vh 0;
+  margin: calc(12vh + 2.5rem*2 + 2.5rem) 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

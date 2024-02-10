@@ -1,6 +1,12 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   body {
-    padding: 1.5rem 6%;
+    padding: 0 6% 1.5rem;
+  }
+
+  header{
+    width: calc(100% - 12%);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   /* navbar start */
@@ -34,8 +40,15 @@
 
 @media (min-width: 800px) and (max-width: 1200px) {
   body {
-    padding: 1.5rem 6%;
+    padding: 0 6% 1.5rem;
   }
+
+  header{
+    width: calc(100% - 12%);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
   #navbar .nav-name {
     font-size: calc(var(--font-size-m-large) - 0.5rem);
   }
